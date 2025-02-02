@@ -15,42 +15,33 @@ Bu proje, küçük işletmeler için modern, responsive ve şık bir web sitesi 
    ```bash
    git clone https://github.com/bektas-sari/flask-kucuk-isletme-sitesi.git
    cd flask_modern_site
-Sanal Ortam Oluşturun (Opsiyonel ama önerilir):
 
-bash
-Kopyala
+Sanal Ortam Oluşturun (Opsiyonel ama önerilir):
 python3 -m venv venv
 source venv/bin/activate  # Windows için: venv\Scripts\activate
-Gerekli Paketleri Yükleyin:
 
-bash
-Kopyala
+Gerekli Paketleri Yükleyin:
 pip install -r requirements.txt
 Not: Eğer bir requirements.txt dosyanız yoksa, en azından Flask kurulmalıdır. Örneğin:
-
-bash
-Kopyala
 pip install Flask
+
 Uygulamayı Çalıştırın:
-
-bash
-Kopyala
 python app.py
-Tarayıcıda Açın:
 
-cpp
-Kopyala
+Tarayıcıda Açın:
 http://127.0.0.1:5000
+
 Kullanım
 Navigasyon: Yapışkan navbar sayesinde, sayfanın üstündeki "Anasayfa", "Hakkımızda", "Hizmetlerimiz" ve "İletişim" linklerine tıklayarak sayfa içerisinde ilgili bölümlere hızlıca geçiş yapabilirsiniz.
 Animasyonlar: Buton fade in animasyonu, görsel hover efektleri (fade out ve büyüme) ile zenginleştirilmiş kullanıcı deneyimi.
-Admin Paneli: İçerik ve görsel yönetimi için /admin yolunu kullanarak admin paneline erişebilir, güncelleme ve yükleme işlemlerini gerçekleştirebilirsiniz.
+
 Özelleştirme
 İçerik Güncelleme: Metinler ve görseller app.py ve templates/ içerisindeki HTML dosyalarından kolayca düzenlenebilir.
 Stil Düzenlemeleri: CSS kodları static/css/style.css dosyasında bulunmakta; burada stil ve animasyon ayarlarını değiştirebilirsiniz.
 Görseller: static/images/ klasöründeki dosyaları değiştirerek kendi görsellerinizi kullanabilirsiniz.
+
 Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için lütfen lisans dosyasına bakın.
+Bu proje MIT Lisansı altında lisanslanmıştır.
 
 Katkıda Bulunma
 Katkılarınızı memnuniyetle karşılıyoruz! Hata bildirimi, özellik önerileri veya doğrudan katkı için lütfen bir issue oluşturun veya pull request gönderin.
